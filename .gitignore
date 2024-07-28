@@ -1,0 +1,4 @@
+*.xlsx
+*.docx
+!BDA 500 - COVID Testing Data.xlsx
+
