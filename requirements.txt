@@ -150,7 +150,9 @@ markupsafe==2.1.5
     #   jinja2
     #   nbconvert
 matplotlib==3.9.1
-    # via pandas
+    # via
+    #   pandas
+    #   seaborn
 matplotlib-inline==0.1.7
     # via
     #   ipykernel
@@ -181,6 +183,7 @@ numpy==2.0.1
     #   contourpy
     #   matplotlib
     #   pandas
+    #   seaborn
 odfpy==1.4.1
     # via pandas
 openpyxl==3.1.5
@@ -196,7 +199,9 @@ packaging==24.1
     #   matplotlib
     #   nbconvert
 pandas==2.2.2
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   seaborn
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.4
@@ -274,6 +279,8 @@ rpds-py==0.19.1
     # via
     #   jsonschema
     #   referencing
+seaborn==0.13.2
+    # via -r requirements.in
 send2trash==1.8.3
     # via jupyter-server
 six==1.16.0
